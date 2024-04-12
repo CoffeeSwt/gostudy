@@ -17,7 +17,7 @@ hero:
       link: Go语言/基本/Go语言介绍
     - theme: alt
       text: GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/CoffeeSwt/gostudy
 
 features:
   - icon: 🛠️
