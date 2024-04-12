@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /基本/go语言介绍
+      link: Go语言/基本/Go语言介绍
     - theme: alt
       text: GitHub
       link: https://github.com/vuejs/vitepress
