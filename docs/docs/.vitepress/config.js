@@ -17,6 +17,21 @@ module.exports = {
                             { text: '流程控制', link: 'Go语言/基本/流程控制' }
                         ],
                     },
+                    {
+                        text: '高级',
+                        collapsed: false,
+                        items: [
+                            { text: '方法', link: 'Go语言/高级/方法' },
+                            { text: '接口', link: 'Go语言/高级/接口' },
+                        ],
+                    },
+                    {
+                        text: '补充',
+                        collapsed: false,
+                        items: [
+                            { text: '并发', link: 'Go语言/补充/并发' }
+                        ],
+                    },
                 ]
             }
         ],
@@ -32,8 +47,8 @@ module.exports = {
     lastUpdated: true,
     markdown: {
         image: {
-          // 默认禁用图片懒加载
-          lazyLoading: true
+            // 默认禁用图片懒加载
+            lazyLoading: true
         }
-      }
+    }
 }
