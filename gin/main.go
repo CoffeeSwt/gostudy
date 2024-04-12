@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func add(x int, y int) int {
@@ -10,8 +9,6 @@ func add(x int, y int) int {
 }
 
 func main() {
-	c := add(1, 2)
+	var c float32
 	fmt.Println(c)
-	fmt.Println("Hello world")
-	fmt.Println(math.Pi)
 }
