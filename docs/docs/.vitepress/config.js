@@ -1,6 +1,9 @@
 module.exports = {
     title: 'Go语言学习之旅',
     description: '这里是Coffee的Go语言学习之旅',
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
     themeConfig: {
         sidebar: [
             {
