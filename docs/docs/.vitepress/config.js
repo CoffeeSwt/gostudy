@@ -22,7 +22,7 @@ module.exports = {
                     },
                     {
                         text: '高级',
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             { text: '方法', link: 'Go语言/高级/方法' },
                             { text: '接口', link: 'Go语言/高级/接口' },
@@ -30,13 +30,48 @@ module.exports = {
                     },
                     {
                         text: '补充',
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             { text: '并发', link: 'Go语言/补充/并发' }
                         ],
                     },
                 ]
-            }
+            },
+            {
+                text: '框架学习',
+                collapsed: false,
+                items: [
+                    {
+                        text: 'gin',
+                        collapsed: true,
+                        items: [
+                            { text: 'gin介绍', link: '框架学习/gin/gin介绍' },
+                        ],
+                    },
+                    {
+                        text: 'gorm',
+                        collapsed: true,
+                        items: [
+                        ],
+                    },
+                    {
+                        text: 'swagger',
+                        collapsed: true,
+                        items: [
+                        ],
+                    },
+                ]
+            },
+            {
+                text: '问题记录',
+                collapsed: false,
+                items: [
+                    {
+                        text: 'gosdk平台差异',
+                        link: '问题记录/gosdk平台差异'
+                    },
+                ]
+            },
         ],
         logo: '/golang.png',
         socialLinks: [
