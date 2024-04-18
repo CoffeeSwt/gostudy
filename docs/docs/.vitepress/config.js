@@ -52,12 +52,14 @@ module.exports = {
                         text: 'gorm',
                         collapsed: true,
                         items: [
+                            { text: 'gorm介绍', link: '框架学习/gorm/gorm介绍' },
                         ],
                     },
                     {
                         text: 'swagger',
                         collapsed: true,
                         items: [
+                            { text: 'Swagger介绍', link: '框架学习/swagger/Swagger介绍' },
                         ],
                     },
                 ]
