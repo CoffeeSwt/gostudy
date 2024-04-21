@@ -74,6 +74,16 @@ module.exports = {
                     },
                 ]
             },
+            {
+                text: '工具教程',
+                collapsed: false,
+                items: [
+                    {
+                        text: 'Github Action工作流',
+                        link: '工具教程/Github Action工作流'
+                    },
+                ]
+            },
         ],
         logo: '/golang.png',
         socialLinks: [
