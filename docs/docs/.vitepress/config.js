@@ -82,6 +82,10 @@ module.exports = {
                         text: 'Github Action工作流',
                         link: '工具教程/Github Action工作流'
                     },
+                    {
+                        text: 'Github Action工作流',
+                        link: '工具教程/Docker简单使用指南'
+                    },
                 ]
             },
         ],
@@ -92,6 +96,35 @@ module.exports = {
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2023-present CoffeeSwt'
+        },
+        locales: {
+            root: {
+                label: '中文（简体）',
+                lang: 'zh'
+            }
+        },
+        search: {
+            provider: 'local',
+            options: {
+                locales: {
+                    zh: {
+                        translations: {
+                            button: {
+                                buttonText: '搜索文档',
+                                buttonAriaLabel: '搜索文档'
+                            },
+                            modal: {
+                                noResultsText: '无法找到相关结果',
+                                resetButtonTitle: '清除查询条件',
+                                footer: {
+                                    selectText: '选择',
+                                    navigateText: '切换'
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     lastUpdated: true,
