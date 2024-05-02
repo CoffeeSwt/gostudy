@@ -17,7 +17,8 @@ module.exports = {
                             { text: 'Go语言介绍', link: 'Go语言/基本/Go语言介绍' },
                             { text: '环境安装', link: 'Go语言/基本/环境安装' },
                             { text: '基本概念', link: 'Go语言/基本/基本概念' },
-                            { text: '流程控制', link: 'Go语言/基本/流程控制' }
+                            { text: '流程控制', link: 'Go语言/基本/流程控制' },
+                            { text: '更多类型', link: 'Go语言/基本/更多类型' },
                         ],
                     },
                     {
