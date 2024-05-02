@@ -7,3 +7,9 @@ yarn
 
 yarn dev
 ```
+
+## 部署网站
+```bash
+docker build -t my-static-web .
+docker run -p 80:80 -d my-static-web
+```

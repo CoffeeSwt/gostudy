@@ -83,7 +83,7 @@ module.exports = {
                         link: '工具教程/Github Action工作流'
                     },
                     {
-                        text: 'Github Action工作流',
+                        text: 'Docker简单使用指南',
                         link: '工具教程/Docker简单使用指南'
                     },
                 ]
@@ -94,8 +94,8 @@ module.exports = {
             { icon: 'github', link: 'https://github.com/CoffeeSwt/gostudy' }
         ],
         footer: {
-            message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2023-present CoffeeSwt'
+            message: '鄂ICP备2024051757号 ',
+            copyright: 'MIT © 2024 CoffeeSwt'
         },
         locales: {
             root: {
