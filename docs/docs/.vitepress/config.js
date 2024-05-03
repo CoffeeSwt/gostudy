@@ -17,12 +17,13 @@ module.exports = {
                             { text: 'Go语言介绍', link: 'Go语言/基本/Go语言介绍' },
                             { text: '环境安装', link: 'Go语言/基本/环境安装' },
                             { text: '基本概念', link: 'Go语言/基本/基本概念' },
-                            { text: '流程控制', link: 'Go语言/基本/流程控制' }
+                            { text: '流程控制', link: 'Go语言/基本/流程控制' },
+                            { text: '更多类型', link: 'Go语言/基本/更多类型' },
                         ],
                     },
                     {
                         text: '高级',
-                        collapsed: true,
+                        collapsed: false,
                         items: [
                             { text: '方法', link: 'Go语言/高级/方法' },
                             { text: '接口', link: 'Go语言/高级/接口' },
@@ -30,8 +31,9 @@ module.exports = {
                     },
                     {
                         text: '补充',
-                        collapsed: true,
+                        collapsed: false,
                         items: [
+                            { text: '类型参数和泛型', link: 'Go语言/补充/类型参数和泛型' },
                             { text: '并发', link: 'Go语言/补充/并发' }
                         ],
                     },
