@@ -33,6 +33,7 @@ module.exports = {
                         text: '补充',
                         collapsed: false,
                         items: [
+                            { text: '类型参数和泛型', link: 'Go语言/补充/类型参数和泛型' },
                             { text: '并发', link: 'Go语言/补充/并发' }
                         ],
                     },
