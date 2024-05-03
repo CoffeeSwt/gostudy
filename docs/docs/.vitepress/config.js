@@ -23,7 +23,7 @@ module.exports = {
                     },
                     {
                         text: '高级',
-                        collapsed: true,
+                        collapsed: false,
                         items: [
                             { text: '方法', link: 'Go语言/高级/方法' },
                             { text: '接口', link: 'Go语言/高级/接口' },
@@ -31,7 +31,7 @@ module.exports = {
                     },
                     {
                         text: '补充',
-                        collapsed: true,
+                        collapsed: false,
                         items: [
                             { text: '并发', link: 'Go语言/补充/并发' }
                         ],
