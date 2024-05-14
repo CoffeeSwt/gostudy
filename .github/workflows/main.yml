@@ -23,7 +23,7 @@ jobs:
       run: ls -l
 
     - name: cd docs
-      run: cd docs
+      run: cd ./docs
 
     - name: Install Dependencies
       run: npm install
