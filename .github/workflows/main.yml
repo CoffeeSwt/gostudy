@@ -16,19 +16,9 @@ jobs:
     
     - name: Copy resp
       uses: actions/checkout@v4
-      with:
-        sparse-checkout: |
-          .github
-          docs
-
-    - name: cd docs
-      run: ls -l
 
     - name: cd docs
       run: cd docs
-
-    - name: ls
-      run: ls -l
 
     - name: Install Dependencies
       run: npm install
