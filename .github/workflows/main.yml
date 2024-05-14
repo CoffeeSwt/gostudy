@@ -25,9 +25,9 @@ jobs:
       run: ls -l
 
     - name: cd docs
-      run: cd ./docs
+      run: cd docs
 
-    - name: cd docs
+    - name: ls
       run: ls -l
 
     - name: Install Dependencies
