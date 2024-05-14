@@ -37,7 +37,6 @@ jobs:
       with:
         node-version: 20
         cache: npm # 或 pnpm / yarn
-        working-directory: ./docs
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
