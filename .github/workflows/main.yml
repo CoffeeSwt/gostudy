@@ -17,12 +17,21 @@ jobs:
     - name: Copy resp
       uses: actions/checkout@v4
 
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: yarn # 或 pnpm / yarn
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
     - name: Install Dependencies
-      run: npm install
+      run: yarn install
       working-directory: ./docs
     
     - name: build
-      run: npm run build
+      run: yarn build
       working-directory: ./docs
 
     - name: Upload artifact
@@ -32,27 +41,16 @@ jobs:
         path: './docs/docs/.vitepress/dist'
 
 
-  # Deploy job
+  # 部署工作
   deploy:
-    # Add a dependency to the build job
-    needs: build
-
-    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
-    permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
-
-    # Deploy to the github-pages environment
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
-    # Specify runner + deployment step
+    needs: build
     runs-on: ubuntu-latest
-
+    name: Deploy
     steps:
-
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
       
