@@ -97,8 +97,8 @@ module.exports = {
             { icon: 'github', link: 'https://github.com/CoffeeSwt/gostudy' }
         ],
         footer: {
-            message: '鄂ICP备2024051757号 ',
-            copyright: 'MIT © 2024 CoffeeSwt'
+            message: '基于 MIT 许可发布',
+            copyright: '版权所有 © 2024-current Coffeeswt'
         },
         locales: {
             root: {
