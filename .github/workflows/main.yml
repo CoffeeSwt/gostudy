@@ -15,7 +15,7 @@ jobs:
         node-version: '20.x'
 
     - name: cd docs
-      run: cd docs
+      run: cd ./docs
 
     - name: Install Dependencies
       run: npm install
