@@ -25,6 +25,13 @@ jobs:
       run: npm run build
       working-directory: ./docs
 
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+      # Upload dist folder
+        path: './docs/docs/.vitepress/dist'
+
+
   # Deploy job
   deploy:
     # Add a dependency to the build job
@@ -44,12 +51,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        # Upload dist folder
-        path: './docs/docs/.vitepress/dist'
 
     - name: Deploy to GitHub Pages
       id: deployment
