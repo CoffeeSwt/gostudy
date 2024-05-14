@@ -17,6 +17,9 @@ jobs:
     - name: cd docs
       run: pwd
 
+    - name: cd docs
+      run: ls -l
+
     - name: Install Dependencies
       run: npm install
     
