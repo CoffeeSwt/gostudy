@@ -13,12 +13,14 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20.x'
+    
+    - name: Copy resp
+      uses: actions/checkout@v4
+      with:
+        node-version: '20.x'
 
     - name: cd docs
-      run: pwd
-
-    - name: cd docs
-      run: ls -l
+      run: cd docs
 
     - name: Install Dependencies
       run: npm install
